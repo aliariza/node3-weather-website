@@ -9,7 +9,7 @@ const forecast = (lat, long, callback) => {
       temperature: temp,
       feelslike: feelsLike,
       weather_descriptions: description,
-      humidity: humidity,
+      humidity,
     } = current;
 
     if (error) {
